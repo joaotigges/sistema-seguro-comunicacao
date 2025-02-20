@@ -1,7 +1,9 @@
 Explicação de como cada tecnologia será usada no sistema 
 
- -bcrypt - a tecnologia bcrypt será utilizada na autenticação dos usuários para armazenar senhas de forma segura. Ao registrar um novo usuário e na autenticação do Usuário. 
- -PyJWT - Gerar tokens de autenticação quando um usuário se autentica com suas credenciais (login e senha)
+ -bcrypt - a tecnologia bcrypt será utilizada na autenticação dos usuários para armazenar senhas de forma segura. Ao registrar um novo usuário e na autenticação do Usuário;
+ 
+ -PyJWT - Gerar tokens de autenticação quando um usuário se autentica com suas credenciais (login e senha);
+ 
  -Cryptography - Biblioteca onde se encontram ferramentas para criptografia simétrica e assimétrica, como os algoritmos AES e RSA. Ambos podem ser utilizados para proteger a comunicação e os dados sensíveis dentro do Sistema.
  
  - Usuário cria um cadastro, da sua senha, será feito um hash com o bcrypt;
